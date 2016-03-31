@@ -46,8 +46,11 @@ body {
  * Header
  */
 
-.header {
+#header {
     max-width: 1000px;
+}
+
+.header {
     margin: 1em auto 1em auto;
     width: 90%;
     border-bottom: 2px solid rgba(0,0,0,0.1);
@@ -80,41 +83,36 @@ body {
 
 #content {
     max-width: 950px;
-    margin: 5em auto auto auto;
+    width: 95%;
+    margin: 5em auto 5em auto;
 }
-
 
 /**
  * Category
  */
 
+.category {
+    margin: 5em 1em 5em 1em;
+}
+
 .cat-title {
     display: flex;
+    flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
-    align-content: center;
 }
 
 .cat-name {
     font-size: 1.5em;
-    flex-grow: 1;
-    margin-right: 10px;
 }
 
 .cat-head-line {
-    flex-grow: 1;
-
     max-width: 70%;
     width: 250px;
     min-width: 30%;
-    margin: auto 0 auto 0;
-
     height: 3px;
     background-color: rgba(0,0,0,0.7);
-
-    margin-bottom: 0.7em; /* em should work as it works relative to font size*/
 }
 
-.empty {
-    flex-grow: 100;
+.cat-body {
+    margin: 2em 3% 2em 3%;
 }
