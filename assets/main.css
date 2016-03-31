@@ -1,0 +1,120 @@
+/**
+ * Fonts
+ */
+
+/* oxygen-regular - latin */
+@font-face {
+  font-family: 'Oxygen';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/oxygen-v5-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Oxygen'), local('Oxygen-Regular'),
+       url('fonts/oxygen-v5-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/oxygen-v5-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/oxygen-v5-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('fonts/oxygen-v5-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('fonts/oxygen-v5-latin-regular.svg#Oxygen') format('svg'); /* Legacy iOS */
+}
+
+
+/**
+ * Core
+ */
+
+body {
+    font-family: 'Oxygen', roboto, sans-serif;
+    width: 100%;
+    margin: 0;
+    padding: 0
+}
+
+
+/**
+ * Common layout properties
+ */
+
+.flex-left {
+    margin-right: auto;
+}
+
+.flex-right {
+    margin-left: auto;
+}
+
+
+/**
+ * Header
+ */
+
+.header {
+    max-width: 1000px;
+    margin: 1em auto 1em auto;
+    width: 90%;
+    border-bottom: 2px solid rgba(0,0,0,0.1);
+}
+
+.header-container {
+    padding: 1em 5% 1em 5%;
+    display: flex;
+}
+
+#header h1 {
+    font-size: 2em;
+    font-weight: 400;
+}
+
+#header .tagline {
+    font-size: 1.2em;
+    opacity: 0.8;
+}
+
+#header .pic {
+    width: 100px;
+    height: 100px;
+}
+
+
+/**
+ * Container (content)
+ */
+
+#content {
+    max-width: 950px;
+    margin: 5em auto auto auto;
+}
+
+
+/**
+ * Category
+ */
+
+.cat-title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+}
+
+.cat-name {
+    font-size: 1.5em;
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.cat-head-line {
+    flex-grow: 1;
+
+    max-width: 70%;
+    width: 250px;
+    min-width: 30%;
+    margin: auto 0 auto 0;
+
+    height: 3px;
+    background-color: rgba(0,0,0,0.7);
+
+    margin-bottom: 0.7em; /* em should work as it works relative to font size*/
+}
+
+.empty {
+    flex-grow: 100;
+}
