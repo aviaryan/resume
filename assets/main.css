@@ -43,6 +43,24 @@ body {
 
 
 /**
+ * Generic flexbox styles
+ */
+
+.flex-horizontal {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-horizontal .item {
+    flex-basis: 33%;
+}
+
+.flex-horizontal .item:before {
+    content: '+';
+}
+
+
+/**
  * Header
  */
 
@@ -118,14 +136,9 @@ body {
 }
 
 /**
- * Category generic styles
+ * Category entry layout
+ * Generic styles
  */
-
-/*.category ul.listing {
-    list-style: none;
-    margin-left: 0;
-    padding-left: 0;
-}*/
 
 .inline-wrapper {
     display: inline;
@@ -155,6 +168,7 @@ body {
 
 .item-with-time {
     display: flex;
+    margin-bottom: 0.6em;
 }
 
 .item-with-time .item {
@@ -163,6 +177,11 @@ body {
 .item-with-time .time {
     margin-left: auto;
 }
+
+.listing .list-more {
+    display: flex;
+}
+
 
 /**
  * Education
