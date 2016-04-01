@@ -371,3 +371,23 @@ a {
     content: '—'; /* the long dash */
     margin: 0 0.2em 0 0.2em;
 }
+
+
+/**
+ * PRINTING
+ * CSS
+ */
+
+@media print {
+    #header {
+        max-width: 1000px;
+    }
+
+    #content {
+        max-width: 925px;
+    }
+
+    body {
+        font-size: 13px;
+    }
+}
