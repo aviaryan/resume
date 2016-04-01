@@ -1,0 +1,25 @@
+
+<!-- skills -->
+  <div class="category skills">
+    <div class="cat-title">
+      <span class="cat-name">Skills</span>
+      <span class="cat-head-line"></span>
+    </div>
+    <div class="cat-body">
+
+    {% for skill in site.data.skills %}
+      <div class="listing">
+        <div class="list-icon"></div>
+        <div class="list-item">
+          <div class="title">{{ skill.title }}</div>
+          <div class="list-more flex-horizontal">
+          {% for item in skill.items %}
+            <span class="item">{{ item.name }}<span class="dull">{{ site.data.skill_captions[item.level] }}</span></span>
+          {% endfor %}
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+
+    </div>
+  </div>

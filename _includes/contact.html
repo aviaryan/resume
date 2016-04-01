@@ -1,0 +1,21 @@
+<!-- contact -->
+  <div class="category contact">
+    <div class="cat-title">
+      <span class="cat-name">Contact</span>
+      <span class="cat-head-line"></span>
+    </div>
+    <div class="cat-body">
+
+      <div class="listing horiz-list">
+      {% for c in site.data.contact %}
+        <span class="network">
+          <span class="name">{{ c.title }}</span>
+          {% for i in c.items %}
+          <span class="username"><a href="{{ i.link }}">{{ i.label }}</a></span>
+          {% endfor %}
+        </span>
+      {% endfor %}
+      </div>
+
+    </div>
+  </div>

@@ -1,0 +1,20 @@
+<!-- references -->
+  <div class="category reference">
+    <div class="cat-title">
+      <span class="cat-name">References</span>
+      <span class="cat-head-line"></span>
+    </div>
+    <div class="cat-body">
+
+    {% for r in site.data.references %}
+      <div class="listing">
+        <i class="fa fa-quote-left fa-pull-left fa-border"></i>
+        <div class="list-item">
+          <span class="refer-text">{{ r.text }}</span>
+          <span class="referrer">{{ r.author }}</span>
+        </div>
+      </div>
+    {% endfor %}
+
+    </div>
+  </div>

@@ -1,0 +1,26 @@
+<!-- awards -->
+  <div class="category awards">
+    <div class="cat-title">
+      <span class="cat-name">Achievements</span>
+      <span class="cat-head-line"></span>
+    </div>
+    <div class="cat-body">
+
+    {% for a in site.data.awards %}
+      <div class="listing">
+        <div class="list-icon"></div>
+        <div class="list-item">
+          <div class="title">{{ a.title }}</div>
+          <div class="item-with-time">
+            <span class="item">{{ a.org }}</span>
+            <span class="time">{{ a.time }}</span>
+          </div>
+          <div class="list-more">
+            {{ a.desc }}
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+
+    </div>
+  </div>

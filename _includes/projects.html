@@ -1,0 +1,26 @@
+<!-- projects -->
+  <div class="category projects">
+    <div class="cat-title">
+      <span class="cat-name">Projects</span>
+      <span class="cat-head-line"></span>
+    </div>
+    <div class="cat-body">
+
+    {% for p in site.data.projects %}
+      <div class="listing">
+        <div class="list-icon"></div>
+        <div class="list-item">
+          <div class="title">{{ p.title }}</div>
+          <div class="item-with-time">
+            <span class="item"><a href="{{ p.link }}">{{ p.link }}</a></span>
+            <span class="time"></span>
+          </div>
+          <div class="list-more">
+            {{ p.desc }}
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+
+    </div>
+  </div>

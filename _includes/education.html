@@ -1,0 +1,28 @@
+<!-- education -->
+  <div class="category edu">
+    <div class="cat-title">
+      <span class="cat-name">Education</span>
+      <span class="cat-head-line"></span>
+    </div>
+    <div class="cat-body">
+
+    {% for e in site.data.edu %}
+      <div class="listing">
+        <div class="list-icon"></div>
+        <div class="list-item">
+          <div class="title">{{ e.title }}</div>
+          <div class="item-with-time">
+            <span class="item">{{ e.deg }}</span>
+            <span class="time">{{ e.startTime }}<span class="longdash"></span>{{ e.endTime }}</span>
+          </div>
+          <div class="list-more flex-horizontal">
+          {% for c in e.courses %}
+            <span class="item">{{ c }}</span>
+          {% endfor %}
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+
+    </div>
+  </div>

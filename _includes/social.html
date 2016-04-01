@@ -1,0 +1,19 @@
+<!-- social profiles -->
+  <div class="category social">
+    <div class="cat-title">
+      <span class="cat-name">Profiles</span>
+      <span class="cat-head-line"></span>
+    </div>
+    <div class="cat-body">
+
+      <div class="listing horiz-list">
+      {% for s in site.data.social %}
+        <span class="network">
+          <span class="name">{{ s.title }}</span>
+          <span class="username"><a href="{{ s.link }}">{{ s.username }}</a></span> 
+        </span>
+      {% endfor %}
+      </div>
+
+    </div>
+  </div>

@@ -1,0 +1,9 @@
+markdown: kramdown
+
+description: Avi Aryan's resume
+title: Avi's resume
+
+highlighter: rouge
+
+googleverify: gC8gMLC1UpPDYi2y5KR_9Sq79n4TYMiQM7UcSvtyfms
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
