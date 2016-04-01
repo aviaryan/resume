@@ -56,7 +56,10 @@ body {
 }
 
 .flex-horizontal .item:before {
+    font-family: 'FontAwesome';
     content: '+';
+    padding-right: 0.4em;
+    color: #333333;
 }
 
 
@@ -127,8 +130,8 @@ body {
     max-width: 70%;
     width: 250px;
     min-width: 30%;
-    height: 3px;
-    background-color: rgba(0,0,0,0.7);
+    height: 2px;
+    background-color: rgba(0,0,0,0.6);
 }
 
 .cat-body {
@@ -190,3 +193,13 @@ body {
 .edu .listing .list-icon:before {
     content: '\f19d'; /* fa-graduation-cap */
 }
+
+.edu .list-more .item:before {
+    content: '\f02d'; /* fa-book */
+}
+
+
+/**
+ * Skills
+ */
+
