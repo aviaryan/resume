@@ -245,7 +245,7 @@ body {
 }
 
 .skills .list-more .item {
-    flex-basis: 25%;
+    flex-basis: 33%;
 }
 
 .item .dull:before {

@@ -1,16 +1,49 @@
 ---
 ---
 
-{% include skills.html %}
+<!DOCTYPE html>
+<html>
+<head>
 
-{% include projects.html %}
+<meta charset="UTF-8">
+<title>{{ page.title }} &middot; {{ site.title }}</title>
+<meta name="viewport" content="width=device-width">
+<meta name="author" content="{{ site.author.fullname }}">
+<link rel="author" href="https://plus.google.com/u/0/+{{ site.author.google }}/posts">
+
+<!-- <link href='https://fonts.googleapis.com/css?family=Oxygen:400,700' rel='stylesheet' type='text/css'> -->
+<link rel="stylesheet" href="assets/main.css"/>
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> -->
+<link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+<div id="header" class="header">
+  <div class="header-container">
+	  <div class="flex-left">
+	    <h1>Avi Aryan</h1>
+	    <span class="tagline">Fullstack developer</span>
+	  </div>
+	  <div class="flex-right">
+	    <img class="pic" src="images/2016-03.jpg"></img>
+	  </div>
+  </div>
+</div>
+
+<div id="content">
 
 {% include education.html %}
-
+{% include skills.html %}
+{% include projects.html %}
 {% include awards.html %}
-
 {% include social.html %}
-
 {% include contact.html %}
-
 {% include references.html %}
+
+</div>
+
+</body>
+
+</html>

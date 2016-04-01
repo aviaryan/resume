@@ -1,6 +1,39 @@
-- title: Backend
+- title: Server
   items:
     - name: Django
-      level: 2
+      level: 3
     - name: Flask
       level: 1
+    - name: Php
+      level: 2
+
+- title: Web
+  items:
+    - name: CSS
+      level: 2
+    - name: Bootstrap
+      level: 1
+    - name: Jekyll
+      level: 3
+
+- title: Database
+  items:
+    - name: MySql
+      level: 3
+    - name: PostgresSql
+      level: 1
+    - name: SQLite
+      level: 2
+
+- title: Languages
+  items:
+    - name: C++
+      level: 2
+    - name: Java
+      level: 2
+    - name: JavaScript
+      level: 2
+    - name: Python
+      level: 3
+    - name: AutoHotkey
+      level: 3

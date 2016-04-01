@@ -3,6 +3,20 @@
   startTime: 2014
   endTime: Present
   courses:
-    - abcd
-    - def
-    - ghi
+    - Computer Networks
+    - Computer Organisation
+    - Digital Logic Design
+    - Calculus
+    - DBMS
+    - Algorithms
+
+- title: Gyan Niketan, Patna
+  deg: 10+2
+  startTime: 2012
+  endTime: 2014
+  courses:
+    - Physics
+    - Chemistry
+    - Mathematics
+    - English
+    - Computer Science
