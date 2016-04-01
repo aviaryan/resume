@@ -121,24 +121,35 @@ body {
  * Category generic styles
  */
 
-.category ul.listing {
+/*.category ul.listing {
     list-style: none;
     margin-left: 0;
     padding-left: 0;
-}
+}*/
 
 .inline-wrapper {
     display: inline;
 }
 
-.category .list-item {
+.cat-body .listing {
+    display: flex;
+}
+
+.listing .list-icon {
+    flex-grow: 1;
+    font-size: 1.5em;
+    padding-right: 0.5em;
+    font-family: 'FontAwesome';
+}
+
+.listing .list-item {
+    flex-grow: 100;
     display: flex;
     flex-direction: column;
-    align-items: stretch;
 }
 
 .list-item .title {
-    font-size: 1.3em;
+    font-size: 1.2em;
     margin-bottom: 0.6em;
 }
 
@@ -153,21 +164,10 @@ body {
     margin-left: auto;
 }
 
-.dummy {
-    flex-grow: 100;
-}
 /**
  * Education
  */
 
-/*.edu .name {
-    display: inline-block;
-    font-size: 1.2em;
-}*/
-
-.edu li:before {
+.edu .listing .list-icon:before {
     content: '\f19d'; /* fa-graduation-cap */
-    font-size: 1.5em;
-    padding-right: 0.5em;
-    font-family: 'FontAwesome'
 }
