@@ -85,6 +85,7 @@ a {
 
 .flex-horizontal .item {
     flex-basis: 33%;
+    white-space: nowrap;
 }
 
 .flex-horizontal .item:before {
@@ -251,10 +252,6 @@ a {
     margin-bottom: 1.5em;
 }
 
-.skills .list-more .item {
-    flex-basis: 33%;
-}
-
 .skills .list-more .item:before {
     content: '\f0fe'; /* fa-plus-square */
 }
@@ -372,6 +369,42 @@ a {
     margin: 0 0.2em 0 0.2em;
 }
 
+
+/**
+ * Mobile
+ * and smaller screens
+ * compatibility
+ */
+
+@media all and (max-width: 750px) {
+    .flex-horizontal .item {
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+    .network {
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+}
+
+@media all and (max-width: 650px) {
+    .flex-horizontal .item {
+        flex-basis: 40%;
+    }
+    .social .network {
+        flex-basis: 27%; /* more than 25 to avoid 4, less than 33 because of the margin applied */
+    }
+}
+
+@media all and (max-width: 500px) {
+    #content {
+        width: 98%;
+    }
+    .cat-body {
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+}
 
 /**
  * PRINTING
