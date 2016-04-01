@@ -248,6 +248,10 @@ body {
     flex-basis: 33%;
 }
 
+.skills .list-more .item:before {
+    content: '\f0fe'; /* fa-plus-square */
+}
+
 .item .dull:before {
     content: '//';
     margin-left: 0.2em;

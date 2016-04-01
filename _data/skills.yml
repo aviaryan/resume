@@ -11,19 +11,12 @@
   items:
     - name: CSS
       level: 2
+    - name: JavaScript
+      level: 2
     - name: Bootstrap
       level: 1
     - name: Jekyll
       level: 3
-
-- title: Database
-  items:
-    - name: MySql
-      level: 3
-    - name: PostgresSql
-      level: 1
-    - name: SQLite
-      level: 2
 
 - title: Languages
   items:
@@ -31,9 +24,31 @@
       level: 2
     - name: Java
       level: 2
-    - name: JavaScript
-      level: 2
+    - name: NodeJS
+      level: 1
     - name: Python
       level: 3
     - name: AutoHotkey
       level: 3
+    - name: Android
+      level: 2
+
+- title: Services
+  items:
+    - name: Heroku
+      level: 2
+    - name: GCP
+      level: 0
+    - name: GitHub
+      level: 4
+
+- title: Misc
+  items:
+    - name: Regex
+      level: 3
+    - name: Web scraping
+      level: 3
+    - name: Database
+      level: 2
+    - name: Designing
+      level: 0
