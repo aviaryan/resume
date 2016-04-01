@@ -41,6 +41,8 @@
       level: 0
     - name: GitHub
       level: 4
+    - name: Travis CI
+      level: 2
 
 - title: Misc
   items:
