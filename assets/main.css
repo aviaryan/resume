@@ -319,6 +319,7 @@ a {
     display: flex;
     flex-direction: column;
     margin-bottom: 1em;
+    white-space: nowrap;
 }
 
 .network .name {
