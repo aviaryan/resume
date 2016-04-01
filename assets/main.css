@@ -57,6 +57,9 @@ body {
     padding: 0;
 }
 
+a {
+    color: inherit;
+}
 
 /**
  * Common layout properties
@@ -232,7 +235,7 @@ body {
 }
 
 .edu .item-with-time .item {
-    font-weight: 300;
+    font-weight: 400;
 }
 
 
@@ -242,6 +245,10 @@ body {
 
 .skills .listing .list-icon:before {
     content: '\f0ad'; /* fa-wrench */
+}
+
+.skills .listing {
+    margin-bottom: 1.5em;
 }
 
 .skills .list-more .item {
@@ -281,6 +288,10 @@ body {
 /**
  * Projects
  */
+
+.projects .listing .list-more {
+    display: block;
+}
 
 .projects .listing .list-icon:before {
     content: '\f15b'; /* fa-file */

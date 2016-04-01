@@ -1,3 +1,7 @@
 - title: Clipjump
   link: http://bit.ly/clipjump
-  desc: An amazing Clipboard manager in AutoHotkey
+  desc: Clipboard manager for Windows in AutoHotkey
+
+- title: Learn X in Y minutes PDF
+  link: http://is.gd/lxiym
+  desc: Parser to make a unified pdf of <a href="http://learnxinyminutes.com">learnxinyminutes.com</a>
