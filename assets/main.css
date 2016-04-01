@@ -308,6 +308,18 @@ body {
 }
 
 
+/**
+ * References
+ */
+
+.reference .fa-quote-left {
+    align-self: flex-start;
+    font-size: 1.5em;
+}
+
+.reference .refer-text {
+    margin-bottom: 1em;
+}
 
 /**
  * Extras
