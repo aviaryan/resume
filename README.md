@@ -15,6 +15,7 @@ Changing order of categories in resume is easy. :wink: Just change the include o
 {% include skills.html %}
 {% include projects.html %}
 {% include awards.html %}
+{% include work.html %}
 {% include social.html %}
 {% include contact.html %}
 {% include references.html %}
