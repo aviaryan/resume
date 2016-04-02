@@ -13,17 +13,20 @@
 <link rel="author" href="https://plus.google.com/u/0/+AviAryan/posts">
 
 {% for static_file in site.static_files %}
-  {{ static_file.path }}
-  {% if static_file.path == '/favicon.ico' %}
-    {% assign favicon = true %}
+  {% if static_file.path == '/local' %}
+    {% assign islocal = true %}
   {% endif %}
 {% endfor %}
 
-<!-- <link href='https://fonts.googleapis.com/css?family=Oxygen:400,700' rel='stylesheet' type='text/css'> -->
+{% if islocal == true %}
 <link rel="stylesheet" href="assets/oxygen.css" />
-<link rel="stylesheet" href="assets/main.css"/>
-<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> -->
 <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+{% else %}
+<link href='https://fonts.googleapis.com/css?family=Oxygen:400,700,300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+{% endif %}
+
+<link rel="stylesheet" href="assets/main.css"/>
 
 </head>
 
