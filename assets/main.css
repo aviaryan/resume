@@ -26,6 +26,9 @@ a {
     margin-left: auto;
 }
 
+.block {
+    display: block !important;
+}
 
 /**
  * Generic flexbox styles
@@ -239,10 +242,6 @@ a {
  * Projects
  */
 
-.projects .listing .list-more {
-    display: block;
-}
-
 .projects .listing .list-icon:before {
     content: '\f15b'; /* fa-file */
 }
@@ -320,10 +319,6 @@ a {
 
 .work .listing .list-icon:before {
     content: '\f0b1'; /* fa-briefcase */
-}
-
-.work .listing .list-more {
-    display: block;
 }
 
 /**
