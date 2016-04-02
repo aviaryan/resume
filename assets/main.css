@@ -306,10 +306,24 @@ a {
 .reference .fa-quote-left {
     align-self: flex-start;
     font-size: 1.5em;
+    border: 0;
 }
 
 .reference .refer-text {
     margin-bottom: 1em;
+}
+
+
+/**
+ * Work Experience
+ */
+
+.work .listing .list-icon:before {
+    content: '\f0b1'; /* fa-briefcase */
+}
+
+.work .listing .list-more {
+    display: block;
 }
 
 /**

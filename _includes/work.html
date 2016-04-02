@@ -1,0 +1,26 @@
+<!-- work experience -->
+  <div class="category work">
+    <div class="cat-title">
+      <span class="cat-name">Work Experience</span>
+      <span class="cat-head-line"></span>
+    </div>
+    <div class="cat-body">
+
+    {% for w in site.data.work %}
+      <div class="listing">
+        <div class="list-icon"></div>
+        <div class="list-item">
+          <div class="title">{{ w.title }}</div>
+          <div class="item-with-time">
+            <span class="item">{{ w.org }}</span>
+            <span class="time">{{ w.startTime }}<span class="longdash"></span>{{ w.endTime }}</span>
+          </div>
+          <div class="list-more">
+            {{ w.desc }}
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+
+    </div>
+  </div>
