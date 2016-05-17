@@ -3,7 +3,7 @@
     - name: Django
       level: 3
     - name: Flask
-      level: 1
+      level: 3
     - name: Php
       level: 2
 
@@ -42,7 +42,7 @@
     - name: GitHub
       level: 4
     - name: Travis CI
-      level: 2
+      level: 3
 
 - title: Misc
   items:
