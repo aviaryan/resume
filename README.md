@@ -1,5 +1,7 @@
 # Resume
 
+<b><font size="+3">Recruiters:</font> This is just a sample. My updated resume can be found [on my Google Drive](https://drive.google.com/open?id=0B1I7ETQXT-TFR3NBQVVwazhnb2c).</b>
+
 Simple, responsive and printable resume in HTML and CSS made dynamic using Jekyll.
 
 http://aviaryan.github.io/resume
